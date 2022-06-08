@@ -1,7 +1,15 @@
 # Table of Content
 
-## What will this guide covers 
- - This guide weill deploy ERC20 token using the standard OpenZeppelin Contracts 
+- [Table of Content](#table-of-content)
+  - [What will this guide cover](#what-will-this-guide-cover)
+  - [Pre-requisites](#pre-requisites)
+  - [Steps](#steps)
+  - [Commands to interact with Deployed contract](#commands-to-interact-with-deployed-contract)
+  - [Blockchain Explorer](#blockchain-explorer)
+  - [Add and Transfer tokens via Metamask wallet](#add-and-transfer-tokens-via-metamask-wallet)
+
+## What will this guide cover
+ - This guide will provide instructions to deploy ERC20 token using the standard OpenZeppelin Contracts
  - The token will be deployed to Rinkeby public test network
  - Some of the tools covered are : Truffle, Infura, Metamask
 
@@ -20,12 +28,16 @@
 - `npm init -y`
 - `npm install`
 - `npx truffle init`
-  - Above command will prompt below 3 questions. Answer then `N`
+  - Above command will prompt below 3 questions. Answer `N`
   - ? Overwrite contracts? : `N`
   - ? Overwrite migrations? : `N`
   - ? Overwrite truffle-config.js? : `N`
+- Open the project "MyToken" in VSCode
+- Update the `.env` file with the Infura project id and Metamask wallet private key.
+  - Blog on how to get "Infura project id" : https://ethereumico.io/knowledge-base/infura-api-key-guide/ (Refer step 1 and 2)  
+  - Blog on how to get Metamask account private key : https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key
 - `npx truffle migrate --network rinkeby`
-    - Mke a note of the contract address as shown below 
+    - Make a note of the contract address as shown below 
     - ![contract address](assets/img/Contract_address.png)
 
 ## Commands to interact with Deployed contract 
