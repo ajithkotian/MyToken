@@ -19,6 +19,7 @@
   - Basic text editor Ex: VSCode, Atom
   - Chrome web browser
   - NodeJS v14+
+  - Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
   - Install [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
   - Transfer 0.1 testnet ETH from rinkeby faucet https://rinkebyfaucet.com/ to your metamask wallet. 
   - Sign up and create a free account in [Infura](https://infura.io/)
