@@ -14,12 +14,14 @@
  - Some of the tools covered are : Truffle, Infura, Metamask
 
 ## Pre-requisites  
+- Please follow these steps on a laptop or desktop which is connected to the internet. Doesnt work best on mobile. Also do not work within an organization firewall.
 - Install below prerequisites 
   - Basic text editor Ex: VSCode, Atom
   - Chrome web browser
   - NodeJS v14+
-  - Install metamask
-  - Transfer 0.1 testnet ETH from rinkeby faucet https://rinkebyfaucet.com/ to your metamask wallet. Here is a good example : https://gist.github.com/tschubotz/8047d13a2d2ac8b2a9faa3a74970c7ef
+  - Install [Metamask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
+  - Transfer 0.1 testnet ETH from rinkeby faucet https://rinkebyfaucet.com/ to your metamask wallet. 
+  - Sign up and create a free account in [Infura](https://infura.io/)
 
 
 ## Steps
@@ -35,7 +37,7 @@
 - Open the project "MyToken" in VSCode
 - Update the `.env` file with the Infura project id and Metamask wallet private key.
   - Blog on how to get "Infura project id" : https://ethereumico.io/knowledge-base/infura-api-key-guide/ (Refer step 1 and 2)  
-  - Blog on how to get Metamask account private key : https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key
+  - Blog on how to get Metamask Rinkeby testnet account private key : https://metamask.zendesk.com/hc/en-us/articles/360015289632-How-to-export-an-account-s-private-key
 - `npx truffle migrate --network rinkeby`
     - Make a note of the contract address as shown below 
     - ![contract address](assets/img/Contract_address.png)
